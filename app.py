@@ -10,7 +10,6 @@ app = Flask(__name__)
 # Configure Flask-Caching
 cache = Cache(app, config={'CACHE_TYPE': 'SimpleCache', 'CACHE_DEFAULT_TIMEOUT': 600})  # 10 minutes
 
-# Your WeatherAPI.com API key
 API_KEY = "c0df6556d94e4efb91394027241402"
 
 

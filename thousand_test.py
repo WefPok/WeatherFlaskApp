@@ -11,7 +11,7 @@ async def fetch(url, session):
 
 
 async def main():
-    url = "http://localhost:5000/update_balance"  # Update to your Flask app's endpoint
+    url = "http://localhost:5000/update_balance"
     tasks = []
 
     # Set up an aiohttp session
